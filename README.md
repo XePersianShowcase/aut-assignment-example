@@ -1,2 +1,3 @@
 # HomeworkTemplate
-XeTex Template for homework
+## Introduction
+Let's free our homework and proejct definitions.
