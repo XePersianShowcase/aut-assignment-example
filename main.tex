@@ -1,0 +1,79 @@
+\documentclass[paper=a4, fontsize=11pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{xepersian}
+\settextfont[Path=fonts/]{Vazir.ttf}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{
+\normalfont \normalsize 
+\includegraphics[scale=0.1]{aut}
+\hspace{5cm}
+\includegraphics[scale=0.1]{ceit} \\
+\textsc دانشگاه صنعتی امیرکبیر \\
+\textsc دانشکده مهندسی کامپیوتر و فناوری اطلاعات
+\horrule{0.5pt} \\ [0.4cm] % Thin top horizontal rule
+\huge قالب تعریف تمرین و پروژه \\ % The assignment title
+\horrule{2pt} \\ [0.5cm] % Thick bottom horizontal rule
+}
+
+\author{یک استاد خوب}
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+\section{پروژه‌ی خوب}
+\paragraph{
+تعریف یک پروژه‌ی خوب اینجا آمده است، این پروژه‌ی خوب خیلی خوب است.
+خیلی‌ها دوست دارند پروژه‌هایشان با نرم‌افزارهای متن باز تولید شود.
+}
+\subsection{زیر تیتر پروژه‌ی خوب}
+\paragraph{
+پروژه‌ی خوب توسط تدریسیاران خوب تولید می‌شود.
+}
+
+\begin{align} 
+\begin{split}
+(x+y)^3 	&= (x+y)^2(x+y)\\
+&=(x^2+2xy+y^2)(x+y)\\
+&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
+&=x^3+3x^2y+3xy^2+y^3
+\end{split}					
+\end{align}
+
+
+\end{document}
