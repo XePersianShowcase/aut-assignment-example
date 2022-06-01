@@ -4,7 +4,7 @@ Assignment description with XePersian. This structure is used at Computer Engine
 
 ## How to use?
 
-Create a document based on [`assignment`](./assignment) class as follow:
+Create a document based on [`assignment`](./assignment.cls) class as follow:
 
 ```tex
 \documentclass[]{assignment}
@@ -24,3 +24,5 @@ Create a document based on [`assignment`](./assignment) class as follow:
 \end{document}
 
 ```
+
+This example uses the localise option of XePersian to write latex command in persian which makes editing and updating persian documents easier.
