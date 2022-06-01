@@ -26,3 +26,7 @@ Create a document based on [`assignment`](./assignment.cls) class as follow:
 ```
 
 This example uses the localise option of XePersian to write latex command in persian which makes editing and updating persian documents easier.
+
+## Screenshots
+
+![s1](./screenshots/s1.png)
