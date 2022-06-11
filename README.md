@@ -15,13 +15,13 @@ Create a document based on [`assignment`](./assignment.cls) class as follow:
   ترم={نیم سال دوم ۱۴۰۰ -- ۱۴۰۱},
 }
 
-\begin{document}
+\شروع{نوشتار}
 
 \عنوان‌ساز
 
 \پایان‌ساز
 
-\end{document}
+\پایان{نوشتار}
 
 ```
 
