@@ -23,7 +23,7 @@
    top=2.5cm,
    bottom=2.5cm
 ]{geometry}
-\RequirePackage[localise]{xepersian}
+\RequirePackage[localize]{xepersian}
 
 \usemintedstyle{one-dark}
 
